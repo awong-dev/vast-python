@@ -7,6 +7,9 @@ license = "MIT"
 readme = "README.md"
 repository = "https://github.com/vast-ai/vast-python"
 
+include = ["__init__.py", "requirements.txt", "vast.py", "vastai_base.py", "vastai_sdk.py", "vast_pdf.py" ]
+
+
 exclude = [
     "borb_invoice_example.pdf", "vast.ai-logo-50pct.png", "vast.ai-logo.png", "vast.ai-logo.xcf"
 ]
