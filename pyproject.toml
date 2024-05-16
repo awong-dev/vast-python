@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "vast_python"
+name = "vast-python"
 version = "0.0.1"
 description = "Vast.ai python and cli api client"
 authors = ["Vast.ai team"]
