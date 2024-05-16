@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vast_python"
+version = "0.0.1"
+description = "Vast.ai python and cli api client"
+authors = ["Vast.ai team"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/vast-ai/vast-python"
+
+exclude = [
+    "borb_invoice_example.pdf", "vast.ai-logo-50pct.png", "vast.ai-logo.png", "vast.ai-logo.xcf"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
